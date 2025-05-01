@@ -8,12 +8,12 @@ import {
 import { getAuth } from 'firebase/auth'
 
 const firebaseConfig = {
-    apiKey: '',
-    authDomain: '',
-    projectId: '',
-    storageBucket: '',
-    messagingSenderId: '',
-    appId: '',
+    apiKey: 'AIzaSyDyL-9HyBdvmE8quc0-1tRF3PuGnt8utG4',
+    authDomain: 'morfix-93558.firebaseapp.com',
+    projectId: 'morfix-93558',
+    storageBucket: 'morfix-93558.firebasestorage.app',
+    messagingSenderId: '540257065369',
+    appId: '1:540257065369:web:888fbf31254ece4dbe5b08',
     measurementId: '',
 }
 const firebaseApp = !getApps().length ? initializeApp(firebaseConfig) : getApp()
