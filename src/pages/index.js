@@ -55,7 +55,6 @@ export const getServerSideProps = async (context) => {
     let landingPageData = null
 
     console.log('ffdfd', process.env.NEXT_PUBLIC_BASE_URL)
-
     try {
         const configRes = await fetch(
             `${process.env.NEXT_PUBLIC_BASE_URL}/api/v1/config`,
