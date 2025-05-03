@@ -31,7 +31,7 @@ const CustomLanguage = ({ formMobileMenu, language, isMobile }) => {
     useEffect(() => {
         if (typeof window !== 'undefined') {
             dispatch(
-                setLanguage(localStorage.getItem('language') || i18n.language)
+                setLanguage(localStorage.getItem('language') || 'es')
             )
         }
     }, [language])
