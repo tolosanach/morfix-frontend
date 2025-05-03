@@ -52,7 +52,7 @@ const SettingPage = () => {
     useEffect(() => {
         // Perform localStorage action
         if (typeof window !== 'undefined') {
-            dispatch(setLanguage(localStorage.getItem('language') || 'en'))
+            dispatch(setLanguage(localStorage.getItem('language') || 'es'))
             dispatch(setCountryCode(localStorage.getItem('country')))
         }
     }, [language])
